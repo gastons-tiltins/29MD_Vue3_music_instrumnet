@@ -13,3 +13,5 @@ npm i
 ```
 npm run dev
 ```
+
+[Live preview](https://scintillating-churros-8b1190.netlify.app/)
