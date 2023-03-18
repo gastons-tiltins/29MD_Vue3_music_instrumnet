@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="container">
     <div class="home-wrapper">
-      <img src="../assets/xylaphone.jpg" usemap="#image-map" />
+      <img src="../assets/xylaphone.jpg" usemap="#image-map" class="selectDisable" />
       <map name="image-map">
         <area
           coords="673,10,752,3,957,378,866,393"
@@ -74,5 +74,13 @@ export default {
   justify-content: center;
   align-items: center;
   height: 80vh;
+}
+
+.selectDisable {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 </style>
