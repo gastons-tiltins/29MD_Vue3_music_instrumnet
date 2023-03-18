@@ -6,10 +6,10 @@ import { RouterLink, RouterView } from 'vue-router'
   <header class="container">
     <div class="nav-wrapper">
       <div>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink class="selectDisable" to="/">Home</RouterLink>
       </div>
       <div>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink class="selectDisable" to="/about">About</RouterLink>
       </div>
     </div>
   </header>
